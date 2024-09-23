@@ -22,27 +22,27 @@
 	<meta property="twitter:image" content="https://pokerogue.net/logo512.png" />
 	<meta property="twitter:card" content="summary" />
 	<meta property="twitter:url" content="https://pokerogue.net" />
-	<link rel="apple-touch-icon" href="./logo512.png" />
-	<link rel="shortcut icon" type="image/png" href="./logo512.png" />
+	<link rel="apple-touch-icon" href="public/logo512.png" />
+	<link rel="shortcut icon" type="image/png" href="public/logo512.png" />
 	<link rel="canonical" href="https://pokerogue.net" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 	<style type="text/css">
 		@font-face {
 			font-family: 'emerald';
-			src: url('./fonts/pokemon-emerald-pro.ttf') format('truetype');
+			src: url('public/fonts/pokemon-emerald-pro.ttf') format('truetype');
 		}
 
 		@font-face {
 			font-family: 'pkmnems';
-			src: url('./fonts/pkmnems.ttf') format('truetype');
+			src: url('public/fonts/pkmnems.ttf') format('truetype');
 		}
 	</style>
-	<link rel="stylesheet" type="text/css" href="./index.css" />
-	<link rel="manifest" href="./manifest.webmanifest">
+	<link rel="stylesheet" type="text/css" href="/index.css" />
+	<link rel="manifest" href="public/manifest.webmanifest">
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function () {
-        navigator.serviceWorker.register("./service-worker.js").then(
+        navigator.serviceWorker.register("public/service-worker.js").then(
           function (registration) {
             console.log("ServiceWorker registration successful");
           },
