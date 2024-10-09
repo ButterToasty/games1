@@ -7,19 +7,6 @@
     <!-- We only include this to explicitly loosen the CSP of various packager environments. It does not provide any security. -->
     <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:">
     <title>FNAF 4</title>
-    <script async src="https://arc.io/widget.min.js#UvHfwCmt"></script>
-
-    <!-- Google -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1477355143669983"
-            crossorigin="anonymous"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN2RSBQT28"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-RN2RSBQT28');
-    </script>
     <style>
         body {
             color: #ffffff;
@@ -201,7 +188,7 @@
     </details>
   </div>
 
-  <script src="script.js"></script>
+  <script src="https://buttertoasty.github.io/games1/games/fnaf4/script.js"></script>
   <script>
     const appElement = document.getElementById('app');
     const launchScreen = document.getElementById('launch');
@@ -289,7 +276,7 @@
         
         storage.addWebStore(
           [storage.AssetType.ImageVector, storage.AssetType.ImageBitmap, storage.AssetType.Sound],
-          (asset) => new URL('./assets/' + asset.assetId + '.' + asset.dataFormat, location).href
+          (asset) => new URL('https://buttertoasty.github.io/games1/games/fnaf4/assets/' + asset.assetId + '.' + asset.dataFormat, location).href
         );
         return () => new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();

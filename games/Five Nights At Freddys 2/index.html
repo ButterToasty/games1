@@ -1,4 +1,4 @@
-<script async src="https://arc.io/widget.min.js#sMbCtF2L"></script><!DOCTYPE html>
+<!DOCTYPE html>
 <!-- Created with https://packager.turbowarp.org/ -->
 <html>
 <head>
@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- We only include this to explicitly loosen the CSP of various packager environments. It does not provide any security. -->
   <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:">
-  <title>Five Nights at Freddy&apos;s</title>
+  <title>Five Nights at Freddys 2</title>
   <style>
     body {
       color: #474747;
@@ -166,7 +166,7 @@
     </details>
   </div>
 
-  <script src="script.js"></script>
+  <script src="https://buttertoasty.github.io/games1/games/Five%20Nights%20At%20Freddys%202/script.js"></script>
   <script>
     const appElement = document.getElementById('app');
     const launchScreen = document.getElementById('launch');
@@ -205,7 +205,7 @@
       const {storage, vm} = scaffolding;
       storage.addWebStore(
         [storage.AssetType.ImageVector, storage.AssetType.ImageBitmap, storage.AssetType.Sound],
-        (asset) => new URL('./assets/' + asset.assetId + '.' + asset.dataFormat, location).href
+        (asset) => new URL('https://buttertoasty.github.io/games1/games/Five%20Nights%20At%20Freddys%202/assets/' + asset.assetId + '.' + asset.dataFormat, location).href
       );
       storage.onprogress = (total, loaded) => {
         setProgress(0.2 + (loaded / total) * 0.8);
